@@ -100,7 +100,7 @@ namespace SequencesTask.Tests
         [TestCase(1_000_000)]
         public void GetPrimeNumbers_LongSequenceTests(int count)
         {
-            var sequence = SequenceGenerator.GetFibonacciNumbers(count);
+            var sequence = SequenceGenerator.GetPrimeNumbers(count);
             Assert.IsTrue(sequence.Count() == count);
         }
 
