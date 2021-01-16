@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
@@ -32,5 +32,16 @@ namespace SequencesTask
             throw new NotImplementedException();
         }
 
+
+         /// <summary>
+        /// Generates the sequence of prime numbers.
+        /// </summary>
+        /// <param name="number">Maximum number to search.</param>
+        /// <returns>A sequence of all primes less or equal than <paramref name="number"/>.</returns>
+        /// <exception cref="ArgumentException">Thrown when <paramref name="number"/> is less than 1.</exception>
+        public static IEnumerable<int> GetPrimes(int number)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
