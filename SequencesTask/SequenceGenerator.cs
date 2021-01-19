@@ -32,7 +32,6 @@ namespace SequencesTask
             throw new NotImplementedException();
         }
 
-
          /// <summary>
         /// Generates the sequence of prime numbers.
         /// </summary>
