@@ -3,11 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using NUnit.Framework;
-using SequencesTask;
-
-#pragma warning disable SA1600 // Elements should be documented
-#pragma warning disable SA1118 // Parameter should not span multiple lines
-#pragma warning disable CA1707 // Identifiers should not contain underscores
 
 namespace SequencesTask.Tests
 {

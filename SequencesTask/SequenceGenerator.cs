@@ -20,9 +20,9 @@ namespace SequencesTask
         {
             throw new NotImplementedException();
         }
-        
+
         /// <summary>
-        /// Generates the sequence of prime numbers.
+        /// Generates the sequence of prime numbers. 
         /// </summary>
         /// <param name="count">Sequence length.</param>
         /// <returns>A sequence of <paramref name="count"/> first prime numbers.</returns>
@@ -32,8 +32,8 @@ namespace SequencesTask
             throw new NotImplementedException();
         }
 
-         /// <summary>
-        /// Generates the sequence of prime numbers.
+        /// <summary>
+        /// Generates the sequence of prime numbers (see https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).
         /// </summary>
         /// <param name="number">Maximum number to search.</param>
         /// <returns>A sequence of all primes less or equal than <paramref name="number"/>.</returns>
