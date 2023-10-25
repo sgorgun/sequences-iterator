@@ -29,14 +29,14 @@ namespace SequencesTask
 
             IEnumerable<BigInteger> GetNumbers()
             {
-                ulong previous = 0;
-                ulong current = 1;
+                BigInteger previous = 0;
+                BigInteger current = 1;
                 yield return previous;
                 yield return current;
 
                 while (count > 2)
                 {
-                    ulong temp = previous + current;
+                    BigInteger temp = previous + current;
                     count--;
                     yield return temp;
                     (current, previous) = (temp, current);
